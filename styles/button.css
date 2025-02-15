@@ -1,0 +1,25 @@
+.btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.btn-primary { 
+    color: white;
+    background-color: black;
+}
+
+.btn-primary:hover{
+    outline: 1px solid black;
+    outline-offset: 0.25rem;
+}
+
+.btn-border {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.btn-border:hover{
+    outline: 1px solid black;
+    outline-offset: 0.25rem;
+}
