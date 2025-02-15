@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+    .offcanvas {
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000; 
+        width: 80%;
+        height: 100%;
+    }
+
+    .offcanvas.show {
+        transform: translateX(0);
+    }
+
+    .offcanvas-close {
+        display: block;
+        background-color: white;
+        border: none;
+    }
+}
+
+.offcanvas-close {
+    display: none;
+}
