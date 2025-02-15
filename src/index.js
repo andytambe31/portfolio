@@ -15,9 +15,10 @@ const toggleMenu = () => {
      });
  
      document.addEventListener('click', (e) => {
-         if (offcanvasContainer.classList.contains('show') && !offcanvasContainer.contains(e.target)) {
+         if ((offcanvasContainer.classList.contains('show') && !offcanvasContainer.contains(e.target)) || e.target.classList.contains('nav-link')) {
              toggleMenu();
          }
      });
+     
  });
  
