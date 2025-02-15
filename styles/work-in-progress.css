@@ -1,0 +1,15 @@
+.container {
+  color: black; 
+  background-color: lightpink; 
+  height: 100vh;
+  padding: 4rem;
+}
+
+.container h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.container p {
+    font-size: larger;
+}
