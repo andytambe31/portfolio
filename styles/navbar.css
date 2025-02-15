@@ -20,8 +20,8 @@
 }
 
 .hamburger-logo {
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
 }
 
 .nav-links {
@@ -43,8 +43,8 @@
 
 @media (max-width: 1024px) {
     .logo {
-        width: 120px;
-        height: 120px;
+        width: 7.5rem;
+        height: 7.5rem;
     }
 
     .nav {
