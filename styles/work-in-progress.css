@@ -13,3 +13,14 @@
 .container p {
     font-size: larger;
 }
+
+@media (max-width: 1024px) {
+    .container h1 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
