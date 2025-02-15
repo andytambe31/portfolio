@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 4rem 0rem;
+}
+
+.hero-content header > h1{
+    font-size: 4rem;
+}
+
+.hero-content header > p{
+    font-size: 1.5rem;
+}
+
+.hero-cta {
+    margin-top: 2rem;
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.hero-image {
+    border-radius: 100px;
+}
+
+@media (max-width: 1024px) {
+
+    .hero{
+        flex-direction: column-reverse;
+        gap: 2rem;
+        margin: 2rem 0rem;
+    }
+
+    .hero-content header > h1{
+        font-size: 2rem;
+    }
+
+    .hero-content header > p{
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        border-radius: 100px;
+    }
+    
+}

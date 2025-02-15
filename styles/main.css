@@ -2,9 +2,21 @@
 @import 'navbar.css';
 @import 'offcanvas.css';
 @import 'work-in-progress.css';
+@import 'hero-section.css';
+@import 'button.css';
 
 body {
     font-family: "Open Sans", serif;
+}
+
+main {
+    margin: 0.5rem 8rem;
+}
+
+@media (max-width: 1024px) {
+    main {
+        margin: 0.5rem 2rem;
+    }
 }
 
 /* Disable user agent stylesheets */
