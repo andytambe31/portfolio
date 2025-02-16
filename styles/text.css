@@ -8,3 +8,7 @@
     text-wrap: wrap;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
