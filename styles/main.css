@@ -4,6 +4,8 @@
 @import 'work-in-progress.css';
 @import 'hero-section.css';
 @import 'button.css';
+@import 'about-me-section.css';
+@import 'text.css';
 
 body {
     font-family: "Open Sans", serif;

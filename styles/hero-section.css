@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    margin: 4rem 0rem;
+    margin-bottom: 8rem;
 }
 
 .hero-content header > h1{
@@ -11,7 +11,8 @@
 }
 
 .hero-content header > p{
-    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: large;
 }
 
 .hero-cta {
@@ -21,7 +22,9 @@
 }
 
 .hero-image {
-    border-radius: 100px;
+    border-radius: 2rem;
+    width: 30rem;
+    object-fit: contain;
 }
 
 @media (max-width: 1024px) {
@@ -41,7 +44,8 @@
     }
 
     .hero-image {
-        border-radius: 100px;
+        width: 20rem;
+        border-radius: 1rem;
     }
     
 }

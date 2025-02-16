@@ -1,0 +1,10 @@
+.text-emphasis {
+    font-weight: bold;
+    color: black;
+    background-color: bisque;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding: 0rem 0.1rem;
+    text-wrap: wrap;
+}
+
