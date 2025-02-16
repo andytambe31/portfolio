@@ -27,6 +27,12 @@
     object-fit: contain;
 }
 
+.contact-details {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
 @media (max-width: 1024px) {
 
     .hero{
@@ -46,6 +52,11 @@
     .hero-image {
         width: 20rem;
         border-radius: 1rem;
+    }
+
+    .contact-details {
+        margin-top: 1rem;
+        flex-direction: column;
     }
     
 }
