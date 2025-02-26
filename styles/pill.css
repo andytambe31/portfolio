@@ -1,9 +1,20 @@
+.pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 .pill {
-    color: black;
+    color: white;
     text-transform: uppercase;
-    border: 1px solid black;
-    border-radius: 1rem;
-    font-size: x-small;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-size: small;
     font-weight: 500;
-    padding: 0.1rem 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.pill:hover{
+    outline: 1px solid white;
 }

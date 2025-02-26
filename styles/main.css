@@ -8,6 +8,8 @@
 @import 'experiences-sections.css';
 @import 'text.css';
 @import 'pill.css';
+@import 'utility.css';
+@import 'footer.css';
 
 body {
     font-family: "Open Sans", serif;

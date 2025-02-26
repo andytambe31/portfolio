@@ -1,0 +1,60 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Ensure separators render correctly */
+.separator {
+    color: gray;
+    display: inline-block;
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer-text { 
+        margin-top: 2rem;
+    }
+
+    /* Hide separators on mobile */
+    .separator {
+        display: none;
+    }
+}
